@@ -4,7 +4,7 @@
     {
       "label": "Build and Run raylib",
       "type": "shell",
-      "command": "./build.sh && ./app",
+      "command": "./build.sh && ./game",
       "group": {
         "kind": "build",
         "isDefault": true

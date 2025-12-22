@@ -1,6 +1,5 @@
 #!/bin/bash
-clang++ main.cpp -o app \
-  -lraylib \
+clang++ Code/*.cpp -o game -lraylib \
   -framework OpenGL \
   -framework Cocoa \
   -framework IOKit \
